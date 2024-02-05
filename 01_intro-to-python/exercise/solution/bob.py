@@ -1,10 +1,10 @@
-def reply(input):
-    input = input.rstrip()
+def reply(address):
+    address = address.rstrip()
 
-    is_question = input.endswith("?")
-    is_shout = input.isupper()
+    is_question = address.endswith("?")
+    is_shout = address.isupper()
 
-    if not input:
+    if not address:
         return "Fine. Be that way!"
     if is_question and is_shout:
         return "Calm down, I know what I'm doing!"
