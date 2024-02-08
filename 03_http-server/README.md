@@ -26,6 +26,10 @@ address = ("localhost", 8080)
 handler_class = SimpleHTTPRequestHandler
 server = HTTPServer(address, handler_class)
 
+print(
+    f"Server listening at http://{address[0]}:{address[1]} ...\n"
+    "Press CTRL + C to stop."
+)
 server.serve_forever()
 ```
 
