@@ -76,8 +76,9 @@ class Handler(BaseHTTPRequestHandler):
 
 Let's break the code down to better understand what it does:
 
--   The `do_GET()` method is used to create responses to requests of
-    type GET. Similar methods can be defined for POST, DELETE, and so
+-   The `do_GET()` method is used to create responses for requests of
+    type GET. It gets called automatically if a GET request is made to
+    the server. Similar methods can be defined for POST, DELETE, and so
     forth.
 -   The `path` instance variable is assigned to the request's URL path.
     We use it to decide how to respond to specific requests depending on
