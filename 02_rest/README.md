@@ -116,7 +116,7 @@ that they can make GET requests to a specific URL. Similarly, image
 embed elements tells clients they can make GET requests to display
 images.
 
-## Ressources
+## Resources
 
 - Lauren Long. [What RESTful actually means](https://codewords.recurse.com/issues/five/what-restful-actually-means).
 - Codecademy. [What is REST?](https://www.codecademy.com/article/what-is-rest).
